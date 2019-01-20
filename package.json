@@ -1,0 +1,21 @@
+{
+    "name": "overthinking-theme",
+    "displayName": "overthinking-theme",
+    "description": "color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Overthinking Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Overthinking Theme-color-theme.json"
+            }
+        ]
+    }
+}
