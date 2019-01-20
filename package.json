@@ -2,11 +2,11 @@
     "name": "overthinking-theme",
     "displayName": "Overthinking",
     "description": "A dark theme with saturated colors.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "scivarolo",
     "author": "Sebastian Civarolo",
     "galleryBanner": {
-        "color": "#3bc7b8",
+        "color": "#00bbaa",
         "theme": "dark"
     },
     "repository": {
