@@ -1,4 +1,8 @@
 # Overthinking
+
+![Version](https://img.shields.io/visual-studio-marketplace/v/scivarolo.overthinking-theme.svg?label=Visual%20Studio%20Marketplace&style=flat-square)
+![Installs](https://img.shields.io/visual-studio-marketplace/i/scivarolo.overthinking-theme.svg?style=flat-square)
+
 ### A dark theme for VSCode with saturated colors.
 
 This is the theme I've been experimenting with as I've been journeying through Javascript, React, HTML, CSS, and Python. It's based on Juicy by Dayle Rees and always a work in progress. If you come across any weird issues or have suggestions, file an issue on Github!
