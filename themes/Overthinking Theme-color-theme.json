@@ -24,7 +24,7 @@
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#f86844"
+        "foreground": "#ce1836"
       }
     },
     {
@@ -328,6 +328,33 @@
       "scope": "meta.template.expression",
       "settings": {
         "foreground": "#e3e2e0"
+      }
+    },
+
+    /**
+     * CSS/SCSS Settings
+     */
+    {
+      "name": "Pseudo-class",
+      "scope": "entity.other.attribute-name.pseudo-class",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#9f79aa"
+      }
+    },
+    {
+      "name": "at-rule",
+      "scope": "keyword.control.at-rule",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ff4e50"
+      }
+    },
+    {
+      "name": "CSS ID",
+      "scope": "entity.other.attribute-name.id.css",
+      "settings": {
+        "foreground": "#c3cb4c"
       }
     },
 
