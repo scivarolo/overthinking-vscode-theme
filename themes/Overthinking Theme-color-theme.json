@@ -12,20 +12,6 @@
 	"type": "dark",
 	"tokenColors": [
 		{
-			"settings": {
-					"background": "#222222",
-					"foreground": "#e3e2e0",
-					"findHighlight": "#ffe792",
-					"findHighlightForeground": "#333333",
-					"selectionBorder": "#ffffff",
-					"bracketsForeground": "#c3cb4c",
-					"bracketsOptions": "underline",
-					"bracketContentsForeground": "#ff4e50",
-					"bracketContentsOptions": "underline",
-					"tagsOptions": "stippled_underline"
-				}
-		},
-		{
       "name": "Comment",
       "scope": "comment",
       "settings": {
@@ -279,7 +265,7 @@
       "name": "Function argument",
       "scope": "meta.property-name support.type.property-name",
       "settings": {
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -312,7 +298,7 @@
       ],
       "settings": {
         "foreground": "#ff4e50",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
@@ -320,7 +306,7 @@
       "scope": "variable.other",
       "settings": {
         "foreground": "#e3e2e0",
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     {
