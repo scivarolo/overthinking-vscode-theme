@@ -1,12 +1,3 @@
-// Yellow: #edb92e
-// Green: #cecb4c
-// Red: #ce1836
-// Red: #ff4e50
-// Blue: #3bc7b8
-// Gray: #e3e2e0
-// Darker Gray: #777777
-// Orange: #f85931
-
 {
 	"name": "Overthinking",
 	"type": "dark",
@@ -15,7 +6,8 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#777777"
+				"foreground": "#777777",
+				"fontStyle": "italic"
       }
     },
     {
@@ -24,7 +16,7 @@
       "settings": {
         "foreground": "#3bc7b8"
       }
-    },
+		},
     {
       "name": "Number",
       "scope": "constant.numeric",
@@ -62,7 +54,14 @@
       "settings": {
         "foreground": "#edb92e"
       }
-    },
+		},
+		{
+			"name": "Keyword Export Default JS",
+			"scope": "meta.export.default",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
     {
       "name": "Storage",
       "scope": "storage",
@@ -75,49 +74,78 @@
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "italic",
         "foreground": "#ff4e50"
-      }
-    },
-    {
-      "name": "Class name",
-      "scope": "entity.name.class",
-      "settings": {
-        "fontStyle": "underline",
-        "foreground": "#3bc7b8"
       }
 		},
 		{
-			"name": "Entity Name",
-			"scope": "entity.name",
+			"name": "JS Class Modifier",
+			"scope": "storage.modifier.js",
 			"settings": {
-				"fontStyle": "bold underline"
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "SQL Modifier",
+			"scope": "storage.modifier.sql",
+			"settings": {
+				"foreground": "#edb92e"
+			}
+		},
+		{
+			"name": "Entity Name",
+			"scope": "entity.name.type.class",
+			"settings": {
+				"fontStyle": "bold underline",
+				"foreground": "#e3e2e0"
 			}
 		},
     {
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "underline",
         "foreground": "#3bc7b8"
       }
     },
     {
+			"name": "Funcation name - Called",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#c3cb4c"
+			}
+		},
+
+		{
       "name": "Function name",
-      "scope": "entity.name.function",
-      "settings": {
+			// "scope": "entity.name.function",
+			"scope": [
+				"meta.definition",
+				"entity.name.function.python"
+			],
+			"settings": {
         "fontStyle": "bold",
-        "foreground": "#c3cb4c"
       }
-    },
+		},
+
+		{
+			"name": "Language Variable",
+			"scope": [
+				"variable.language",
+				"variable.parameter.function.language.special"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#a7a7a7"
+			}
+		},
     {
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-        "fontStyle": "",
-        "foreground": "#e3e2e0"
+				"foreground": "#e3e2e0"
       }
-    },
+		},
     {
       "name": "Tag name",
       "scope": "entity.name.tag",
@@ -131,17 +159,23 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "#3bc7b8"
+        "foreground": "#f7b83d"
       }
     },
     {
       "name": "Library function",
       "scope": "support.function",
       "settings": {
-        "fontStyle": "",
         "foreground": "#f85931"
       }
-    },
+		},
+		{
+			"name": "Library Function Python",
+			"scope": "support.function.magic.python",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
     {
       "name": "Library constant",
       "scope": "support.constant",
@@ -153,11 +187,10 @@
     {
       "name": "Library class/type",
       "scope": [
-        "support.type",
         "support.class"
       ],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "bold",
         "foreground": "#3bc7b8"
       }
     },
@@ -189,7 +222,14 @@
       "settings": {
         "foreground": "#3bc7b8"
       }
-    },
+		},
+		{
+			"name": "JSON Property Name",
+			"scope": "support.type.property-name.json",
+			"settings": {
+				"foreground": "#a7a7a7"
+			}
+		},
     {
       "name": "diff.header",
       "scope": [
@@ -238,7 +278,19 @@
       "settings": {
         "foreground": "#9d9d9d"
       }
-    },
+		},
+		{
+			"scope": "keyword.operator",
+			"settings": {
+				"fontStyle": "",
+			}
+		},
+		{
+			"scope": "keyword.operator.assignment",
+			"settings": {
+				"foreground": "#e3e2e0"
+			}
+		},
     {
       "scope": [
         "meta.property-value",
@@ -308,7 +360,14 @@
         "foreground": "#e3e2e0",
         "fontStyle": ""
       }
-    },
+		},
+		{
+			"name": "Object Property",
+			"scope": "variable.other.object.property",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
     {
       "name": "Coffeescript Function argument",
       "scope": "variable.parameter.function.coffee",
@@ -435,7 +494,29 @@
       "settings": {
         "foreground": "#e3e2e0"
       }
-    }
+		},
+		{
+			"name": "JSX Class Component Tags",
+			"scope": "support.class.component.js.jsx",
+			"settings": {
+				"foreground": "#ff4e50",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Python Docstring",
+			"scope": "string.quoted.docstring.multi.python",
+			"settings": {
+				"foreground": "#777777"
+			}
+		},
+		{
+			"name": "Python fstring",
+			"scope": "meta.fstring",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		}
 	],
 	"colors": {
 		"foreground":"#e3e2e0",
@@ -443,7 +524,7 @@
         "editorCursor.foreground": "#f8f8f0",
 				"editor.foreground": "#e3e2e0",
         "editor.lineHighlightBackground": "#2a2a2a",
-        "editor.selectionBackground": "#ff4e5055",
+        "editor.selectionBackground": "#118f8f25",
         "sideBar.background":"#2f2f2f",
         "sideBar.foreground":"#e3e2e0",
         "sideBarSectionHeader.background": "#363636",
