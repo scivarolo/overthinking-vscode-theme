@@ -1,6 +1,6 @@
-# Overthinking Theme
-## Overthinking is a dark VSCode Theme with saturated colors.
+# Overthinking
+## Overthinking is a dark theme for VSCode with saturated colors.
 
-Based on Juicy (Rainglow) and tweaked to my liking for the languages I use most: Javascript, React/JSX, Python, HTML, CSS/SCSS, JSON
+This is the theme I've been experimenting with as I've been journeying through Javascript, React, HTML, CSS, and Python. It's based on Juicy from Rainglow by Dayle Rees. If you come across any weird issues or have suggestions, file an issue!
 
 **Enjoy!**
