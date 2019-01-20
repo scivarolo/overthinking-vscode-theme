@@ -1,13 +1,6 @@
-# README
-## This is the README for your extension "overthinking-theme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Overthinking Theme
+## Overthinking is a dark VSCode Theme with saturated colors.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Based on Juicy (Rainglow) and tweaked to my liking for the languages I use most: Javascript, React/JSX, Python, HTML, CSS/SCSS, JSON
 
 **Enjoy!**
