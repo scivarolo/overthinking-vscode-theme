@@ -264,18 +264,6 @@
         "foreground": "#00bbaa"
       }
     },
-    {
-      "scope": "meta.structure.dictionary.json string.quoted.double.json",
-      "settings": {
-        "foreground": "#00bbaa"
-      }
-    },
-    {
-      "scope": "meta.structure.dictionary.value.json string.quoted.double.json",
-      "settings": {
-        "foreground": "#00bbaa"
-      }
-    },
 
     /**
      * Functions
@@ -499,13 +487,35 @@
       "settings": {
         "foreground": "#00bbaa"
       }
-		},
+    },
+    {
+      "scope": "meta.structure.dictionary.json string.quoted.double.json",
+      "settings": {
+        "foreground": "#00bbaa"
+      }
+    },
+    {
+      "scope": "meta.structure.dictionary.value.json string.quoted.double.json",
+      "settings": {
+        "foreground": "#00bbaa"
+      }
+    },
 		{
 			"name": "JSON Property Name",
 			"scope": "support.type.property-name.json",
 			"settings": {
-				"foreground": "#a7a7a7"
+				"foreground": "#f7c53c"
 			}
+    },
+    {
+      "name": "JSON Property Name Quotes",
+      "scope": [
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "#e3e2e0"
+      }
     },
 
     /**
