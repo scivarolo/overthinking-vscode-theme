@@ -1,7 +1,7 @@
 # Overthinking
 
-![Version](https://img.shields.io/visual-studio-marketplace/v/scivarolo.overthinking-theme.svg?label=Visual%20Studio%20Marketplace&style=flat-square)
-![Installs](https://img.shields.io/visual-studio-marketplace/i/scivarolo.overthinking-theme.svg?style=flat-square)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/scivarolo.overthinking-theme.svg?label=Visual%20Studio%20Marketplace&style=flat-square)](https://marketplace.visualstudio.com/items?itemName=scivarolo.overthinking-theme)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/scivarolo.overthinking-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=scivarolo.overthinking-theme)
 
 ### A dark theme for VSCode with saturated colors.
 
