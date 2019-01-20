@@ -1,10 +1,14 @@
 {
     "name": "overthinking-theme",
-    "displayName": "overthinking theme",
-    "description": "color theme",
+    "displayName": "Overthinking",
+    "description": "A dark theme with saturated colors.",
     "version": "0.0.1",
     "publisher": "scivarolo",
     "author": "Sebastian Civarolo",
+    "galleryBanner": {
+        "color": "#3bc7b8",
+        "theme": "dark"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/scivarolo/overthinking-vscode-theme"
