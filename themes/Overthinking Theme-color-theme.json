@@ -409,7 +409,7 @@
 			"settings": {
 				"fontStyle": "bold"
 			}
-		},
+    },
     {
       "name": "Python Function Call",
       "scope": "meta.function-call.generic.python",
@@ -432,6 +432,32 @@
         "fontStyle": "italic"
       }
     },
+    {
+      "name": "Django Template Tags",
+      "scope": [
+        "storage.type.templatetag.django",
+        "storage.type.variable.django"
+      ],
+      "settings": {
+        "foreground": "#9f79aa"
+      }
+    },
+    {
+      "name": "Template Tag Names",
+      "scope": [
+        "keyword.control.tag-name.django"
+      ],
+      "settings": {
+        "foreground": "#9f79aa"
+      }
+    },
+    // {
+    //   "name": "Tag String",
+    //   "scope": "string.unquoted.tag-string.django",
+    //   "settings": {
+    //     "foreground": "#e3e2e0"
+    //   }
+    // },
 
     /**
      * Markdown Settings
