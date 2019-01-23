@@ -123,7 +123,8 @@
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-				"foreground": "#e3e2e0"
+        "foreground": "#f7b83d",
+        "fontStyle": "italic"
       }
 		},
     {
@@ -251,7 +252,7 @@
 		{
 			"scope": "keyword.operator.assignment",
 			"settings": {
-				"foreground": "#e3e2e0"
+				"foreground": "#cf433e"
 			}
 		},
     {
@@ -363,7 +364,7 @@
      */
     {
 			"name": "JSX Class Component Tags",
-			"scope": "support.class.component.js.jsx",
+			"scope": "support.class.component",
 			"settings": {
 				"foreground": "#fa5555",
 				"fontStyle": "bold"
@@ -408,7 +409,55 @@
 			"settings": {
 				"fontStyle": "bold"
 			}
-		},
+    },
+    {
+      "name": "Python Function Call",
+      "scope": "meta.function-call.generic.python",
+      "settings": {
+        "foreground": "#c3cb4c"
+      }
+    },
+    {
+      "name": "Python Exceptions",
+      "scope": "support.type.exception",
+      "settings": {
+        "foreground": "#ff4e50"
+      }
+    },
+    {
+      "name": "Python decorators",
+      "scope": "entity.name.function.decorator",
+      "settings": {
+        "foreground": "#9f79aa",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Django Template Tags",
+      "scope": [
+        "storage.type.templatetag.django",
+        "storage.type.variable.django"
+      ],
+      "settings": {
+        "foreground": "#9f79aa"
+      }
+    },
+    {
+      "name": "Template Tag Names",
+      "scope": [
+        "keyword.control.tag-name.django"
+      ],
+      "settings": {
+        "foreground": "#9f79aa"
+      }
+    },
+    // {
+    //   "name": "Tag String",
+    //   "scope": "string.unquoted.tag-string.django",
+    //   "settings": {
+    //     "foreground": "#e3e2e0"
+    //   }
+    // },
 
     /**
      * Markdown Settings
