@@ -251,7 +251,7 @@
 		{
 			"scope": "keyword.operator.assignment",
 			"settings": {
-				"foreground": "#e3e2e0"
+				"foreground": "#cf433e"
 			}
 		},
     {
