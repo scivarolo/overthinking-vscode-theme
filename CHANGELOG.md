@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to the "overthinking-theme" extension will be documented in this file.
 
+## [0.3.2] 2019-02-08
+### Fixed
+- Updates README.md
+- Includes changelog for [0.3.1]
+
 ## [0.3.1] 2019-02-08
 ### Fixed
 - Integrated terminal colors now match the theme.
