@@ -5,7 +5,7 @@
 
 ### A dark theme for VSCode with saturated colors.
 
-This is the theme I've been experimenting with as I've been journeying through Javascript, React, HTML, CSS, and Python. It's based on Juicy by Dayle Rees and always a work in progress. If you come across any weird issues or have suggestions, file an issue on Github!
+This is the theme I've been experimenting with as I've been journeying through Javascript, React, HTML, CSS, and Python, so it covers React syntax and Django HTML templates if you've got the Django VSCode extension installed. It evolved from Juicy by Dayle Rees. If you come across any weird issues or have suggestions, file an issue on Github!
 
 ## Javascript/React
 
