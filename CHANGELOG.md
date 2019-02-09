@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to the "overthinking-theme" extension will be documented in this file.
 
+## [0.3.1] 2019-02-08
+### Fixed
+- Integrated terminal colors now match the theme.
+
+
 ## [0.3.0] 2019-01-22
 ### Added
 - Assignment operators (red)
